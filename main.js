@@ -3,7 +3,7 @@ document.querySelector('.time-box').textContent = now;
 //let timemark = Date();
 //document.querySelector('.time-mark').textContent = timemark;
 
-fetch('http://api.openweathermap.org/data/2.5/weather?id=704885&appid=46677924c0d26809ca62192b59e9fc30&lang=ua')
+fetch('http://api.openweathermap.org/data/2.5/weather?id=704885&appid=&lang=ua')
    .then(resp => resp.json())
    .then(data => {
       console.log(data);
@@ -16,7 +16,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?id=704885&appid=46677924c0
       // console.log(feels)
    })
 
-fetch('http://api.openweathermap.org/data/2.5/weather?id=756135&appid=46677924c0d26809ca62192b59e9fc30&lang=ua')
+fetch('http://api.openweathermap.org/data/2.5/weather?id=756135&appid=&lang=ua')
    .then(resp => resp.json())
    .then(data2 => {
       console.log(data2);
@@ -28,7 +28,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?id=756135&appid=46677924c0
          }@2x.png">`;
    })
 
-fetch('http://api.openweathermap.org/data/2.5/weather?id=625144&appid=46677924c0d26809ca62192b59e9fc30&lang=ua')
+fetch('http://api.openweathermap.org/data/2.5/weather?id=625144&appid=&lang=ua')
    .then(resp => resp.json())
    .then(data3 => {
       console.log(data3);
